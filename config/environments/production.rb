@@ -79,7 +79,7 @@ Rails.application.configure do
 
   # email enabled in production
   config.action_mailer.smtp_settings = {
-    address: 'smtp.sendgrid.net'
+    address: "smtp.sendgrid.net",
     port: 587,
     domain: Rails.application.secrets.domain_name,
     authentication: "plain",
